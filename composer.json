@@ -1,0 +1,25 @@
+{
+  "name": "neilgeorgeclulow/budget-king",
+  "description": "This is a light weight package with DI",
+  "type": "project",
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "NGC23",
+      "email": "clulowneil23@gmail.com"
+    }
+  ],
+  "require": {
+    "league/route": "^5.1",
+    "league/container": "^4.2",
+    "laminas/laminas-diactoros": "^2.8",
+    "laminas/laminas-httphandlerrunner": "^2.1",
+    "ext-sockets": "*",
+    "ext-curl": "*",
+    "ext-simplexml": "*"
+  }
+}
