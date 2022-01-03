@@ -12,7 +12,7 @@ $router   = (new League\Route\Router)->setStrategy($strategy);
 
 try {
 //We can split these into classes or different files
-    $router->map('GET','/test', 'App\Application\Home\Controller\homeController::get');
+    $router->map('GET','/', 'App\Application\Home\Controller\homeController::get');
 
     $router->map('GET','/income/create', 'App\Application\Income\Controller\IncomeFormController::get');
     $router->map('POST','/income/create', 'App\Application\Income\Controller\IncomeFormController::post');

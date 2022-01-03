@@ -18,5 +18,8 @@ class homeController
 
     public function get(ServerRequestInterface $request): ResponseInterface
     {
+        return new JsonResponse([
+            'message' => 'hello people, this is the home controller for full overview of stuff!'
+        ], 200);
     }
 }
